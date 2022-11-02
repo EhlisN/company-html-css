@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>User Profile</title>
+</head>
+<body>
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu_burger" for="menu__toggle"></label>
+    <header class="header">
+        <h1>Company</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="img/dashboard_gray.svg" alt="icon"><span>Dashboard</span></a></li>
+                <li><a href="#"><img src="img/account_gray.svg" alt="icon"><span>User Profile</span></a></li>
+                <li><a href="#"><img src="img/map_gray.svg" alt="icon"><span>Maps</span></a></li>
+                <li><a href="#"><img src="img/notify_gray.svg" alt="icon"><span>Notifications</span></a></li>
+                <li><a href="#"><img src="img/support_gray.svg" alt="icon"><span>Support</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container row">
+        <main>
+            <h2>User Profile</h2>
+            <section class="profile row">
+                <div class="edit box">
+                    <div class="edit__head section__head">
+                        <p>Edit Profile <br><span>Complate your profile</span></p>
+                    </div>
+                    <form class="row" action="#">
+                        <label class="company" for="company">Company<br>
+                            <input id="company" type="text" autocomplete="off">
+                        </label>
+                        <label class="username" for="username">Username<br>
+                            <input id="username" type="text" autocomplete="off"> 
+                        </label>
+                        <label class="email" for="email">Email address<br>
+                            <input id="email" type="email" autocomplete="off">
+                        </label>
+                        <label class="firstname" for="firstname">First name<br>
+                            <input id="firstname" type="text" autocomplete="off">
+                        </label>
+                        <label class="lastname" for="lastname">Last name<br>
+                            <input id="lastname" type="text" autocomplete="off">
+                        </label>
+                        <label class="address" for="address">Address<br>
+                            <input id="address" type="text" autocomplete="off">
+                        </label>
+                        <label class="city" for="city">City<br>
+                            <input id="city" type="text" autocomplete="off">
+                        </label>
+                        <label class="country" for="country">Country<br>
+                            <input id="country" type="text" autocomplete="off">
+                        </label>
+                        <label class="postal_code" for="postal_code">Postal code<br>
+                            <input id="postal_code" type="text" autocomplete="off">
+                        </label>
+                        <!-- <label class="about_me" for="about_me">About me<br>
+                            <input id="about_me" type="text">
+                        </label> -->
+                        <p>About me</p>
+                        <textarea class="about_me" name="about_me" cols="30" rows="4" autocomplete="off"></textarea>
+                        <button class="btn">UPDATE PROFILE</button>
+                    </label>
+                    </form>
+                </div>
+                <div class="person box">
+                    <img class="section__head" src="img/photo.jpg" alt="photo">
+                    <p>CEO / CO-FOUNDER</p>
+                    <h5>Alec Thompson</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vero obcaecati nihil ea, rerum expedita doloribus odit itaque non repellendus. Odit veritatis similique fugiat  nisi...</p>
+                </div>
+            </section>
+        </main>
+        <footer class="row">
+            <nav>
+                <ul class="row">
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">LICENSES</a></li>
+                </ul>
+            </nav>
+            <P>2019 - made with love</P>
+        </footer>
+    </div>
+</body>
+</html>
